@@ -1,0 +1,29 @@
+{
+  "name": "shadow-dom-testing-library-wtr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@esm-bundle/chai": "4.3.4-fix.0",
+    "@open-wc/testing": "^3.1.7",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@testing-library/dom": "^9.0.0",
+    "@web/dev-server-esbuild": "latest",
+    "@web/dev-server-rollup": "canary",
+    "@web/test-runner": "canary",
+    "@web/test-runner-playwright": "^0.9.0",
+    "lit": "^2.6.1",
+    "shadow-dom-testing-library": "^1.10.0"
+  },
+  "dependencies": {
+  },
+  "resolutions": {
+    "aria-query": "link:../aria-query"
+  }
+}
