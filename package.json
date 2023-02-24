@@ -24,6 +24,6 @@
   "dependencies": {
   },
   "resolutions": {
-    "aria-query": "link:../aria-query"
+    "aria-query": "npm:@konnorr/aria-query"
   }
 }

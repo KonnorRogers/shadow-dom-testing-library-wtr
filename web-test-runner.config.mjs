@@ -45,6 +45,7 @@ export default {
     </html>
   `,
   plugins: [
+    esbuildPlugin({ target: "auto" }),
     commonjs({
       include: [
         /\/node_modules\/lz-string/,
@@ -57,6 +58,5 @@ export default {
       ],
 	    requireReturnsDefault: 'namespace',
     }),
-    // esbuildPlugin({ target: "auto" })
   ],
 };
